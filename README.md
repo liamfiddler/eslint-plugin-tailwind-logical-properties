@@ -1,4 +1,4 @@
-# 📐 eslint-tailwind-logical-properties-plugin
+# 📐 eslint-plugin-tailwind-logical-properties
 
 An ESLint plugin to help you transition from **physical** to **logical** properties in [Tailwind CSS](https://tailwindcss.com/). Future-proof your layouts and support RTL (Right-to-Left) languages with ease.
 
@@ -17,7 +17,7 @@ This plugin enforces the use of **CSS Logical Properties** (like `margin-inline-
 Install the plugin as a dev dependency via npm:
 
 ```bash
-npm install -D liamfiddler/eslint-tailwind-logical-properties-plugin
+npm install -D liamfiddler/eslint-plugin-tailwind-logical-properties
 ```
 
 ## ⚙️ Configuration
@@ -27,15 +27,15 @@ Add the plugin to your ESLint configuration.
 e.g. in your `eslint.config.mjs`:
 
 ```javascript
-import logicalProperties from 'eslint-tailwind-logical-properties-plugin';
+import logicalProperties from 'eslint-plugin-tailwind-logical-properties';
 
 export default [
     {
         plugins: {
-            'tailwind-logical': logicalProperties,
+            'tailwind-logical-properties': logicalProperties,
         },
         rules: {
-            'tailwind-logical/no-physical-properties': 'warn',
+            'tailwind-logical-properties/no-physical-properties': 'warn',
         },
     },
 ];
