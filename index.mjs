@@ -24,6 +24,18 @@ const logicalPropertiesPlugin = {
                     pb: 'pbe',
                     pl: 'ps',
                     pr: 'pe',
+                    'rounded-t': 'rounded-bs',
+                    'rounded-b': 'rounded-be',
+                    'rounded-l': 'rounded-s',
+                    'rounded-r': 'rounded-e',
+                    'rounded-tl': 'rounded-ss',
+                    'rounded-tr': 'rounded-se',
+                    'rounded-bl': 'rounded-es',
+                    'rounded-br': 'rounded-ee',
+                    'border-t': 'border-bs',
+                    'border-b': 'border-be',
+                    'border-l': 'border-s',
+                    'border-r': 'border-e',
                 };
 
                 const physicalPropertiesRegex = new RegExp(

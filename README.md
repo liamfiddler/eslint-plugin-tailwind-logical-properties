@@ -65,6 +65,18 @@ The following Tailwind utilities are currently covered:
 | `pb-`            | `pbe-`          | padding-bottom → padding-block-end |
 | `pl-`            | `ps-`           | padding-left → padding-inline-start |
 | `pr-`            | `pe-`           | padding-right → padding-inline-end |
+| `rounded-t-`     | `rounded-bs-`   | rounded-top → rounded-block-start |
+| `rounded-b-`     | `rounded-be-`   | rounded-bottom → rounded-block-end |
+| `rounded-l-`     | `rounded-s-`    | rounded-left → rounded-inline-start |
+| `rounded-r-`     | `rounded-e-`    | rounded-right → rounded-inline-end |
+| `rounded-tl-`    | `rounded-ss-`   | rounded-top-left → rounded-start-start |
+| `rounded-tr-`    | `rounded-se-`   | rounded-top-right → rounded-start-end |
+| `rounded-bl-`    | `rounded-es-`   | rounded-bottom-left → rounded-end-start |
+| `rounded-br-`    | `rounded-ee-`   | rounded-bottom-right → rounded-end-end |
+| `border-t-`      | `border-bs-`    | border-top → border-block-start |
+| `border-b-`      | `border-be-`    | border-bottom → border-block-end |
+| `border-l-`      | `border-s-`     | border-left → border-inline-start |
+| `border-r-`      | `border-e-`     | border-right → border-inline-end |
 
 ## 🤝 Contributing
 
