@@ -1,0 +1,25 @@
+{
+  "name": "eslint-tailwind-logical-properties-plugin",
+  "version": "1.0.0",
+  "description": "An ESLint plugin to enforce logical properties using TailwindCSS",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamfiddler/eslint-tailwind-logical-properties-plugin.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "tailwindcss",
+    "logical-properties"
+  ],
+  "author": "@liamfiddler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamfiddler/eslint-tailwind-logical-properties-plugin/issues"
+  },
+  "homepage": "https://github.com/liamfiddler/eslint-tailwind-logical-properties-plugin#readme"
+}
