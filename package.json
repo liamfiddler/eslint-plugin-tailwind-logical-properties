@@ -1,5 +1,5 @@
 {
-  "name": "eslint-tailwind-logical-properties-plugin",
+  "name": "eslint-plugin-tailwind-logical-properties",
   "version": "1.0.0",
   "description": "An ESLint plugin to enforce logical properties using TailwindCSS",
   "main": "index.mjs",
