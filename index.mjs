@@ -24,8 +24,8 @@ const logicalPropertiesPlugin = {
                     pb: 'pbe',
                     pl: 'ps',
                     pr: 'pe',
-                    'rounded-t': 'rounded-bs',
-                    'rounded-b': 'rounded-be',
+                    // 'rounded-t': 'rounded-bs', // This property doesn't appear to exist in Tailwind 4.2
+                    // 'rounded-b': 'rounded-be', // This property doesn't appear to exist in Tailwind 4.2
                     'rounded-l': 'rounded-s',
                     'rounded-r': 'rounded-e',
                     'rounded-tl': 'rounded-ss',
